@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FoodTrucks</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_client_registration_screen">client_registration_screen</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="create_vendor">Welcome</string>
+    <string name="next">Sign Up</string>
+    <string name="title_activity_edit_menu">EditMenu</string>
+    <string name="title_activity_order_details_screen">order_details_screen</string>
+    <string name="title_activity_order_details">orderDetails</string>
+    <string name="title_activity_cart_page">CartPage</string>
+    <string name="title_activity_edit_customer">EditCustomer</string>
+    <string name="title_activity_edit_vendor">EditVendor</string>
+    <string name="title_activity_review_vendors">ReviewVendors</string>
+    <string name="title_activity_vendor_reviews_display">VendorReviewsDisplay</string>
+</resources>

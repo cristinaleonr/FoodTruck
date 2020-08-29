@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cristinaleon.foodtrucks.CartPage" >
+
+    <item
+        android:id="@+id/edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="edit"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/checkout_cart"
+        android:title="Cart"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/title_activity_home"
+        app:showAsAction="always" />
+
+</menu>

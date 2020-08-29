@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "99260549845",
+    "firebase_url": "https://cis-350-food-truck.firebaseio.com",
+    "project_id": "cis-350-food-truck",
+    "storage_bucket": "cis-350-food-truck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99260549845:android:403e8ed83a00b53c",
+        "android_client_info": {
+          "package_name": "com.example.cristinaleon.foodtrucks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99260549845-jum13bmo5emkjoivh37cbm1lto0o5ae2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdjkgXaNNqOMbX9U3O2PqgykYff0sveUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

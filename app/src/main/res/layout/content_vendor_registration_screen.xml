@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Welcome! "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:onClick="create"
+            android:text="Create Account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stack" />
+
+        <LinearLayout
+            android:id="@+id/stack"
+            android:layout_width="310dp"
+            android:layout_height="877dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="75dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/rNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="120dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <TextView
+                android:id="@+id/nameFixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of Restaurant"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <EditText
+                android:id="@+id/rPhoneInput"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:inputType="phone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="120dp" />
+
+            <TextView
+                android:id="@+id/PhoneFixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone #"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <EditText
+                android:id="@+id/rPasswordFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="237dp" />
+
+            <TextView
+                android:id="@+id/Passwordfixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="250dp" />
+
+            <EditText
+                android:id="@+id/rPasswordSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/reenterFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Re-enter Password"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/rEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/emailFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Email Address"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/rCuisineType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/cuisineFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Cuisine Type"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/address1Type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/address1Fixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Address Line 1"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/address2Type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/address2Fixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Address Line 2 (Optional)"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/cityType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/cityFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="City"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/stateType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/stateFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="State"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/zipCodeType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/zipCodeFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Zip Code"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/bankingInformationType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/bankingInformationFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Bank Account Number"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <EditText
+                android:id="@+id/hoursType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="datetime"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="283dp" />
+
+            <TextView
+                android:id="@+id/mondayFixed"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:text="Hours of Operation"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="296dp" />
+
+            <!--<WebView-->
+                <!--android:id="@+id/file"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:ems="10"-->
+                <!--tools:layout_editor_absoluteX="8dp"-->
+                <!--tools:layout_editor_absoluteY="300dp"></WebView>-->
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cristinaleon.foodtrucks">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Sign In"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ClientRegistrationPage"
+            android:label="Sign Up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorRegistration"
+            android:label="Sign Up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomerHomeActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorPage"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorHomeActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OrderActivity" />
+        <activity
+            android:name=".CartPage"
+            android:label="Cart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditMenu"
+            android:label="@string/title_activity_edit_menu"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".OrderDetailsVendor"
+            android:label="Order Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderDetailsCustomer"
+            android:label="Order Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditCustomer"
+            android:label="Edit Info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditVendor"
+            android:label="Edit Info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReviewUsers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomerCurrentOrdersActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReviewVendors"
+            android:label="Review"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VendorReviewsDisplay"
+            android:label="Reviews"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
