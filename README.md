@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/cristinaleonr/FoodTruck/blob/master/FoodTrucks.png?raw=true"/>
-</p>
-
 <h2>Welcome to Food Trucks!</h2>
 
 Food Trucks is an Android application that allows users to order food from Food Trucks in the area.
