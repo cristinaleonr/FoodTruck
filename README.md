@@ -1,4 +1,4 @@
-<h2>Welcome to Food Trucks!</h2>
+<h2>Food Trucks!</h2>
 
 Food Trucks is an Android application that allows users to order food from Food Trucks in the area.
 
